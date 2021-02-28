@@ -18,11 +18,12 @@ const btnColor = {
   isActive: false,
 
   start() {
+    refs.startBtn.setAttribute('disabled', true);
     if (this.isActive) {
       return;
     }
-
     this.isActive = true;
+
     this.intervalId = setInterval(() => {
       const randomColor =
         colors[randomIntegerFromInterval(0, colors.length - 1)];
@@ -31,6 +32,7 @@ const btnColor = {
   },
 
   stop() {
+    refs.startBtn.removeAttribute('disabled');
     clearInterval(this.intervalId);
     this.intervalId = null;
     this.isActive = false;

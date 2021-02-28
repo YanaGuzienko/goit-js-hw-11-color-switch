@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luxplanjay/webpack-starter-kit.git"
+    "url": "git+https://github.com/YanaGuzienko/goit-js-hw-11-color-switch.git"
   },
   "keywords": [],
   "author": "Yana Guzienko",
   "license": "MIT",
-  "homepage": "https://github.com/luxplanjay/webpack-starter-kit#readme",
+  "homepage": "https://yanaguzienko.github.io/goit-js-hw-11-color-switch/",
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
